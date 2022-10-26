@@ -1,0 +1,75 @@
+body{
+  background-color: rgb(255,172,20);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+*{
+  margin:0px;
+  padding:0px;
+}
+#wrapper {
+ margin: 0 auto 0 auto;
+ width: 960px;
+}
+header{
+  text-align: center;
+}
+h1{
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+section article {
+  border: 3px solid black;
+  border-radius: 0px 20px 0px 20px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px;
+  background: rgba(50, 50, 50, 0.3);
+}
+section{
+  margin-top: 70px;
+}
+footer h3 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 90%;
+}
+ul {
+  list-style: none;
+  padding: 10px;
+  padding-top: 5px;
+  width: 100px;
+  display: inline;
+}
+ul li {
+  margin-right: 0px;
+  background: black;
+  border: solid 2px white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100px;
+  display: inline;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  text-align: center;
+}
+nav {
+  float: top;
+  width: 100%;
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+ul li a:hover{
+    color: black;
+}
+ul li:hover{
+  border-color: black;
+  background: white;
+  transition: all 1s;
+}
+p a{
+  text-decoration: none;
+  color: red;
+}

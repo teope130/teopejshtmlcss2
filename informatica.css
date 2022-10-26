@@ -1,0 +1,116 @@
+body{
+  background-color: rgb(255,172,20);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+*{
+  margin:0px;
+  padding:0px;
+}
+#wrapper {
+ margin: 0 auto 0 auto;
+ width: 960px;
+}
+header{
+  text-align: center;
+}
+h1{
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+section article {
+  border: 3px solid black;
+  border-radius: 0px 20px 0px 20px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px;
+  background: rgba(50, 50, 50, 0.3);
+}
+section{
+  margin-top: 70px;
+}
+footer h3 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 90%;
+}
+ul {
+  list-style: none;
+  padding: 10px;
+  padding-top: 5px;
+  width: 100px;
+  display: inline;
+}
+ul li {
+  margin-right: 0px;
+  background: black;
+  border: solid 2px white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100px;
+  display: inline;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  text-align: center;
+}
+nav {
+  float: top;
+  width: 100%;
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+ul li a:hover{
+    color: black;
+}
+ul li:hover{
+  border-color: black;
+  background: white;
+  transition: all 1s;
+}
+#een {
+  position: absolute;
+  top:250px;
+  left:250px;
+  background: black;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+}
+#twee{
+  position: absolute;
+  top:350px;
+  left:350px;
+  background-color: blue;
+  z-index: 2;
+  width: 100px;
+  height: 100px;
+}
+#drie{
+  position: absolute;
+  top:250px;
+  left:250px;
+  background-color: red;
+  z-index: 3;
+  width: 100px;
+  height: 100px;
+}
+#vier{
+  position: absolute;
+  top: 250px;
+  left: 250px;
+  background-color: yellow;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+}
+#vijf{
+  position: absolute;
+  top:300px;
+  left:300px;
+  background-color: green;
+  z-index: 5;
+  width: 100px;
+  height: 100px;
+}
